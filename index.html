@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="ms">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Widya Law Office, firma guaman di Pauh, Perlis. Pertanyaan berkaitan jenayah, keluarga, sivil dan syariah." />
+  <meta name="theme-color" content="#080808" />
+  <title>Widya Law Office | Pauh, Perlis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --ink:#090909;--ink2:#121212;--ink3:#191919;--gold:#f2b928;--gold2:#ffd76a;
+      --cream:#f7f2e8;--white:#fff;--muted:#aaa59c;--line:rgba(255,255,255,.12);--max:1180px;
+    }
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--ink);color:#f8f6f1;font-family:Manrope,system-ui,sans-serif;line-height:1.6;overflow-x:hidden}
+    a{color:inherit;text-decoration:none}button,input,textarea{font:inherit}
+    .wrap{max-width:var(--max);margin:auto;padding:0 24px}.eyebrow{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;font-weight:800;color:var(--gold)}
+    .nav{position:fixed;inset:0 0 auto 0;z-index:50;background:rgba(9,9,9,.78);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.08)}
+    .navin{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:13px;font-weight:800;letter-spacing:.02em}
+    .mark{width:44px;height:44px;border-radius:50%;background:#050505;border:1px solid #3b2d08;display:grid;place-items:center;box-shadow:0 0 0 1px rgba(242,185,40,.08) inset}.mark svg{width:27px;height:27px}
+    .brand small{display:block;color:#8f8b83;font-weight:600;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;margin-top:-2px}.menu{display:flex;align-items:center;gap:26px;color:#d8d5ce;font-size:.86rem;font-weight:700}.menu a:hover{color:var(--gold)}
+    .cta{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:12px 18px;border-radius:999px;background:var(--gold);color:#111;font-weight:800;font-size:.86rem;box-shadow:0 8px 30px rgba(242,185,40,.15);transition:.2s}.cta:hover{transform:translateY(-2px);background:var(--gold2)}
+    .hamb{display:none;border:0;background:none;color:white;font-size:1.5rem}
+    .hero{min-height:880px;padding:165px 0 96px;position:relative;isolation:isolate;overflow:hidden}.hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 74% 18%,rgba(242,185,40,.13),transparent 26%),radial-gradient(circle at 10% 70%,rgba(242,185,40,.06),transparent 28%);z-index:-2}.hero:after{content:"";position:absolute;right:-190px;top:84px;width:660px;height:660px;border:1px solid rgba(242,185,40,.12);border-radius:50%;box-shadow:0 0 0 90px rgba(242,185,40,.025),0 0 0 180px rgba(242,185,40,.02);z-index:-1}
+    .grid{display:grid;grid-template-columns:1.15fr .85fr;gap:72px;align-items:center}.hero h1{font-family:"DM Serif Display",serif;font-weight:400;font-size:clamp(3.6rem,6vw,6.6rem);line-height:.95;letter-spacing:-.045em;margin:18px 0 28px;max-width:820px}.hero h1 em{color:var(--gold);font-weight:400}.lead{font-size:1.08rem;color:#b9b5ad;max-width:650px;margin:0 0 34px}.actions{display:flex;gap:12px;flex-wrap:wrap}.ghost{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:999px;border:1px solid #343434;color:#eee;font-weight:750;font-size:.86rem}.ghost:hover{border-color:#6b5724;background:#17140c}
+    .proof{margin-top:54px;display:flex;gap:34px;flex-wrap:wrap;color:#aaa59c}.proof strong{display:block;color:white;font-size:1.12rem}.proof span{font-size:.75rem}
+    .casecard{background:linear-gradient(160deg,#181818,#0c0c0c);border:1px solid rgba(255,255,255,.12);border-radius:28px;padding:30px;box-shadow:0 45px 100px rgba(0,0,0,.45);position:relative}.casecard:before{content:"";position:absolute;inset:0;border-radius:28px;background:linear-gradient(135deg,rgba(242,185,40,.1),transparent 35%);pointer-events:none}.casecard .top{display:flex;justify-content:space-between;align-items:center;padding-bottom:22px;border-bottom:1px solid var(--line)}.seal{width:74px;height:74px;border:1px solid #4a390c;border-radius:50%;display:grid;place-items:center;color:var(--gold);font-family:"DM Serif Display";font-size:2rem}.status{font-size:.72rem;border:1px solid #31563c;color:#9fe2ae;background:#0e1d12;padding:7px 10px;border-radius:999px}.casecard h3{font-family:"DM Serif Display";font-size:2.2rem;font-weight:400;margin:24px 0 10px}.casecard p{color:#aaa59c;font-size:.9rem}.quick{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:24px}.quick a{border:1px solid #2b2b2b;border-radius:16px;padding:15px;background:#121212;font-size:.78rem;font-weight:750}.quick a b{display:block;color:var(--gold);font-size:1rem;margin-bottom:3px}
+    .strip{border-top:1px solid #222;border-bottom:1px solid #222;background:#0c0c0c}.stripin{min-height:94px;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}.strip p{margin:0;color:#918d86;font-size:.78rem}.strip strong{color:#e5e1d9}
+    section{padding:110px 0}.light{background:var(--cream);color:#151515}.sectionhead{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:end;margin-bottom:52px}.sectionhead h2{font-family:"DM Serif Display";font-size:clamp(2.7rem,4.5vw,4.4rem);font-weight:400;line-height:1.03;letter-spacing:-.035em;margin:10px 0 0}.sectionhead p{color:#6f6a62;margin:0;max-width:520px}
+    .services{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.service{min-height:290px;padding:26px;border-radius:22px;background:#fff;border:1px solid #ded8cd;display:flex;flex-direction:column;justify-content:space-between;transition:.25s}.service:hover{transform:translateY(-5px);border-color:#c49a2d;box-shadow:0 16px 50px rgba(47,39,23,.08)}.num{font-family:"DM Serif Display";font-size:3rem;color:#d6cec0}.service h3{font-family:"DM Serif Display";font-size:1.8rem;font-weight:400;margin:0 0 8px}.service p{font-size:.84rem;color:#756f66;margin:0}.arrow{font-weight:800;color:#a87c08;margin-top:20px}
+    .aboutgrid{display:grid;grid-template-columns:.9fr 1.1fr;gap:75px;align-items:center}.portrait{aspect-ratio:4/5;border-radius:28px;overflow:hidden;position:relative;background:radial-gradient(circle at 50% 15%,#423817,#111 55%)}.portrait:before{content:"W";font-family:"DM Serif Display";font-size:22rem;color:rgba(242,185,40,.08);position:absolute;inset:auto -5% -20% auto;line-height:1}.portrait .figure{position:absolute;inset:8% 10% 0;border:1px solid rgba(242,185,40,.24);border-radius:160px 160px 20px 20px;background:linear-gradient(180deg,rgba(242,185,40,.08),rgba(255,255,255,.02));display:grid;place-items:center;text-align:center;padding:28px}.figure .bigmark{width:140px;height:140px;border-radius:50%;background:#070707;border:1px solid #705713;display:grid;place-items:center;margin:auto}.figure strong{font-family:"DM Serif Display";font-size:2rem;font-weight:400;display:block;margin-top:22px}.figure span{color:#aaa59c;font-size:.76rem}.about h2{font-family:"DM Serif Display";font-size:clamp(2.8rem,4vw,4.3rem);font-weight:400;line-height:1.05;margin:12px 0 22px}.about p{color:#aaa59c}.credentials{margin:34px 0;display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #292929}.cred{padding:20px 0;border-bottom:1px solid #292929}.cred:nth-child(odd){padding-right:18px}.cred b{display:block;color:#f4f0e9;font-size:.85rem}.cred span{font-size:.74rem;color:#85817b}
+    .topics{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.topic{border:1px solid #282828;background:#101010;border-radius:22px;padding:28px;min-height:270px;display:flex;flex-direction:column;justify-content:space-between}.topic .tag{font-size:.68rem;text-transform:uppercase;letter-spacing:.13em;color:var(--gold);font-weight:800}.topic h3{font-family:"DM Serif Display";font-size:2rem;font-weight:400;line-height:1.08;margin:18px 0}.topic p{font-size:.82rem;color:#96918a}.topic a{font-size:.78rem;font-weight:800;color:#f3d57e}
+    .contact{background:var(--gold);color:#111;position:relative;overflow:hidden}.contact:after{content:"";position:absolute;right:-90px;bottom:-240px;width:520px;height:520px;border:1px solid rgba(0,0,0,.12);border-radius:50%;box-shadow:0 0 0 80px rgba(0,0,0,.025),0 0 0 160px rgba(0,0,0,.02)}.contactgrid{display:grid;grid-template-columns:1fr .85fr;gap:60px;position:relative;z-index:1}.contact h2{font-family:"DM Serif Display";font-size:clamp(3.2rem,5vw,5.8rem);font-weight:400;line-height:.97;margin:12px 0 24px}.contact p{max-width:620px;color:#4c3b0d}.contact .darkbtn{display:inline-flex;padding:14px 22px;border-radius:999px;background:#111;color:white;font-weight:800;margin-top:14px}.details{background:#111;color:white;border-radius:26px;padding:30px}.row{padding:18px 0;border-bottom:1px solid #2c2c2c}.row:last-child{border:0}.row small{display:block;text-transform:uppercase;letter-spacing:.12em;color:#827f78;font-size:.62rem;margin-bottom:5px}.row b{font-size:.88rem;font-weight:650}.row a:hover{color:var(--gold)}
+    footer{padding:45px 0 30px;background:#060606}.foot{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start}.foot p{font-size:.72rem;color:#77736d;max-width:760px}.footlinks{display:flex;justify-content:flex-end;flex-wrap:wrap;gap:18px;font-size:.72rem;color:#a7a39c}.footlinks a:hover{color:var(--gold)}.legal{margin-top:26px;padding-top:22px;border-top:1px solid #1d1d1d;color:#66615a;font-size:.66rem}
+    .mobilebar{display:none}
+    @media(max-width:940px){.menu{display:none}.hamb{display:block}.grid,.sectionhead,.aboutgrid,.contactgrid{grid-template-columns:1fr}.hero{padding-top:135px;min-height:auto}.casecard{max-width:620px}.services{grid-template-columns:1fr 1fr}.topics{grid-template-columns:1fr}.aboutgrid{gap:45px}.portrait{max-width:580px}.foot{grid-template-columns:1fr}.footlinks{justify-content:flex-start}.mobilebar{display:grid;grid-template-columns:1fr 1fr;position:fixed;z-index:60;bottom:12px;left:12px;right:12px;background:#111;border:1px solid #343434;padding:7px;border-radius:18px;box-shadow:0 15px 60px rgba(0,0,0,.4)}.mobilebar a{padding:12px;text-align:center;font-size:.75rem;font-weight:800;border-radius:12px}.mobilebar a:first-child{background:var(--gold);color:#111}}
+    @media(max-width:620px){.wrap{padding:0 18px}.navin{height:68px}.brand span{font-size:.82rem}.brand small{display:none}.mark{width:39px;height:39px}.hero{padding:120px 0 72px}.hero h1{font-size:3.65rem}.lead{font-size:.96rem}.proof{gap:20px}.quick{grid-template-columns:1fr}.stripin{padding-top:18px;padding-bottom:18px}.services{grid-template-columns:1fr}section{padding:78px 0}.sectionhead{gap:22px}.credentials{grid-template-columns:1fr}.cred:nth-child(odd){padding-right:0}.contact h2{font-size:3.5rem}.details{padding:24px}.footlinks{gap:14px}}
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap navin">
+      <a class="brand" href="#utama" aria-label="Widya Law Office">
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" fill="none"><path d="M32 9v42M20 18h24M13 27h14M37 27h14M16 27l-7 13h14l-7-13Zm32 0-7 13h14l-7-13ZM24 52h16" stroke="#f2b928" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 40c2.4 5 11.6 5 14 0M41 40c2.4 5 11.6 5 14 0" stroke="#f2b928" stroke-width="3" stroke-linecap="round"/></svg>
+        </span>
+        <span>WIDYA LAW OFFICE<small>Pauh · Perlis</small></span>
+      </a>
+      <div class="menu"><a href="#khidmat">Khidmat</a><a href="#firma">Firma</a><a href="#info">Info Undang-Undang</a><a href="#hubungi">Hubungi</a></div>
+      <a class="cta" href="https://wa.me/60196196128?text=Salam%20Widya%20Law%20Office%2C%20saya%20ingin%20bertanya%20berkaitan%20khidmat%20guaman." target="_blank" rel="noopener">WhatsApp Firma ↗</a>
+    </div>
+  </nav>
+
+  <main id="utama">
+    <header class="hero">
+      <div class="wrap grid">
+        <div>
+          <div class="eyebrow">Advocates & Solicitors · Perlis</div>
+          <h1>Fahami pilihan anda.<br><em>Ambil langkah yang tepat.</em></h1>
+          <p class="lead">Widya Law Office ialah firma guaman di Pauh, Perlis. Dapatkan maklumat awal dan hubungi firma untuk pertanyaan berkaitan perkara jenayah, keluarga serta urusan undang-undang yang berkaitan.</p>
+          <div class="actions">
+            <a class="cta" href="https://wa.me/60196196128?text=Salam%20Widya%20Law%20Office%2C%20saya%20ingin%20buat%20pertanyaan%20guaman." target="_blank" rel="noopener">Buat Pertanyaan ↗</a>
+            <a class="ghost" href="tel:+60196196128">☎ +60 19-619 6128</a>
+          </div>
+          <div class="proof">
+            <div><strong>Pauh, Perlis</strong><span>Lokasi firma</span></div>
+            <div><strong>2016</strong><span>Tahun kemasukan Widyaevasari ke Malaysian Bar</span></div>
+            <div><strong>UUM</strong><span>Kelayakan Widyaevasari</span></div>
+          </div>
+        </div>
+        <aside class="casecard">
+          <div class="top"><div><div class="eyebrow">Saluran pantas</div><b>Perlu bercakap dengan firma?</b></div><div class="status">● Pertanyaan dibuka</div></div>
+          <div class="seal">W</div>
+          <h3>Mulakan dengan ringkasan kes anda.</h3>
+          <p>Kongsikan jenis perkara, lokasi dan apa dokumen yang anda sudah terima. Firma boleh menilai langkah seterusnya selepas mendapatkan maklumat yang mencukupi.</p>
+          <div class="quick">
+            <a href="https://wa.me/60196196128" target="_blank" rel="noopener"><b>01</b>WhatsApp</a>
+            <a href="mailto:widyalawoffice2023@gmail.com"><b>02</b>Email</a>
+            <a href="https://www.instagram.com/lawyerwidya/" target="_blank" rel="noopener"><b>03</b>Instagram</a>
+            <a href="https://www.threads.com/@lawyerwidya" target="_blank" rel="noopener"><b>04</b>Threads</a>
+          </div>
+        </aside>
+      </div>
+    </header>
+
+    <div class="strip"><div class="wrap stripin"><p><strong>WIDYA LAW OFFICE</strong> · Lot 6837, Jalan Ulu Pauh, Kg. Hilir Ulu Pauh, 02600 Pauh, Perlis</p><p>Tel: <strong>019-619 6128</strong> · Email: <strong>widyalawoffice2023@gmail.com</strong></p></div></div>
+
+    <section class="light" id="khidmat">
+      <div class="wrap">
+        <div class="sectionhead">
+          <div><div class="eyebrow">Bidang pertanyaan</div><h2>Bermula dengan masalah yang anda sedang hadapi.</h2></div>
+          <p>Direktori awam menyenaraikan Widya Law Office bagi perkara jenayah dan Mahkamah Keluarga. Saluran sosial firma turut memaparkan kandungan berkaitan sivil dan syariah. Hubungi firma untuk mengesahkan skop perkhidmatan bagi kes tertentu.</p>
+        </div>
+        <div class="services">
+          <article class="service"><div class="num">01</div><div><h3>Jenayah</h3><p>Pertanyaan berkaitan pertuduhan, prosiding jenayah dan representasi guaman.</p><div class="arrow">Semak dengan firma →</div></div></article>
+          <article class="service"><div class="num">02</div><div><h3>Keluarga</h3><p>Perkara yang melibatkan Mahkamah Keluarga dan isu undang-undang keluarga.</p><div class="arrow">Semak dengan firma →</div></div></article>
+          <article class="service"><div class="num">03</div><div><h3>Sivil</h3><p>Pertanyaan awal berkaitan pertikaian, surat tuntutan dan tindakan sivil.</p><div class="arrow">Semak dengan firma →</div></div></article>
+          <article class="service"><div class="num">04</div><div><h3>Syariah</h3><p>Pertanyaan undang-undang syariah berdasarkan skop dan bidang kuasa yang berkenaan.</p><div class="arrow">Semak dengan firma →</div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="firma">
+      <div class="wrap aboutgrid">
+        <div class="portrait" aria-label="Widya Law Office identity graphic">
+          <div class="figure"><div><div class="bigmark"><svg width="72" height="72" viewBox="0 0 64 64" fill="none"><path d="M32 8v44M20 18h24M13 27h14M37 27h14M16 27l-7 13h14l-7-13Zm32 0-7 13h14l-7-13ZM24 53h16" stroke="#f2b928" stroke-width="3" stroke-linecap="round"/><path d="M9 40c3 5 11 5 14 0M41 40c3 5 11 5 14 0" stroke="#f2b928" stroke-width="3"/></svg></div><strong>Widya Law Office</strong><span>Advocates & Solicitors · Pauh, Perlis</span></div></div>
+        </div>
+        <div class="about">
+          <div class="eyebrow">Tentang firma</div>
+          <h2>Maklumat yang jelas sebelum anda membuat keputusan.</h2>
+          <p>Widya Law Office beroperasi di Pauh, Perlis. Widyaevasari binti Mohd Kanifiah tersenarai sebagai peguam aktif dan dimasukkan ke Malaysian Bar pada 1 Disember 2016 selepas berkelayakan dari Universiti Utara Malaysia.</p>
+          <p>Rekod direktori awam turut menyenaraikan Shazwan bin Shaidan bersama firma. Untuk menentukan peguam, skop, dokumen dan langkah yang sesuai bagi sesuatu perkara, hubungi firma secara terus.</p>
+          <div class="credentials">
+            <div class="cred"><b>Widyaevasari binti Mohd Kanifiah</b><span>UUM · Admitted 01.12.2016</span></div>
+            <div class="cred"><b>Shazwan bin Shaidan</b><span>UM · Admitted 08.12.2011</span></div>
+            <div class="cred"><b>Alamat</b><span>Lot 6837, Jalan Ulu Pauh, Kg. Hilir Ulu Pauh</span></div>
+            <div class="cred"><b>Hubungan</b><span>019-619 6128</span></div>
+          </div>
+          <a class="ghost" href="https://www.malaysianbar.org.my/" target="_blank" rel="noopener">Laman rasmi Malaysian Bar ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="info">
+      <div class="wrap">
+        <div class="sectionhead">
+          <div><div class="eyebrow">Literasi undang-undang</div><h2>Topik yang sedang dikongsi oleh Lawyer Widya.</h2></div>
+          <p>Kandungan sosial firma menerangkan isu undang-undang dalam bahasa yang mudah difahami. Berikut antara tema yang dipaparkan baru-baru ini.</p>
+        </div>
+        <div class="topics">
+          <article class="topic"><div><span class="tag">Sivil</span><h3>Terima Letter of Demand?</h3><p>Jangan terus panik atau bayar tanpa semakan. Fahami dahulu apa tuntutan, tarikh akhir dan dokumen berkaitan.</p></div><a href="https://www.threads.com/@lawyerwidya" target="_blank" rel="noopener">Lihat perkongsian di Threads ↗</a></article>
+          <article class="topic"><div><span class="tag">Kesedaran</span><h3>Penipuan dalam talian</h3><p>Kenal pasti langkah awal, simpan bukti dan dapatkan pandangan tentang saluran tindakan yang sesuai.</p></div><a href="https://www.instagram.com/lawyerwidya/" target="_blank" rel="noopener">Lihat perkongsian di Instagram ↗</a></article>
+          <article class="topic"><div><span class="tag">Keluarga & komuniti</span><h3>Isu buli & keselamatan</h3><p>Maklumat kesedaran tentang tindakan apabila berdepan isu buli dan kepentingan menyimpan rekod kejadian.</p></div><a href="https://www.instagram.com/lawyerwidya/" target="_blank" rel="noopener">Lihat perkongsian di Instagram ↗</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="hubungi">
+      <div class="wrap contactgrid">
+        <div>
+          <div class="eyebrow" style="color:#4b3908">Hubungi Widya Law Office</div>
+          <h2>Ada perkara yang perlu diperiksa?</h2>
+          <p>Hantar ringkasan situasi anda melalui WhatsApp. Elakkan menghantar dokumen sensitif kepada pihak yang tidak dikenali dan pastikan anda berhubung melalui saluran firma yang betul.</p>
+          <a class="darkbtn" href="https://wa.me/60196196128?text=Salam%20Widya%20Law%20Office%2C%20saya%20ingin%20buat%20pertanyaan%20guaman." target="_blank" rel="noopener">WhatsApp +60 19-619 6128 ↗</a>
+        </div>
+        <div class="details">
+          <div class="row"><small>Alamat pejabat</small><b>Lot 6837, Jalan Ulu Pauh, Kg. Hilir Ulu Pauh, 02600 Pauh, Perlis</b></div>
+          <div class="row"><small>Telefon / WhatsApp</small><b><a href="tel:+60196196128">+60 19-619 6128</a></b></div>
+          <div class="row"><small>Email</small><b><a href="mailto:widyalawoffice2023@gmail.com">widyalawoffice2023@gmail.com</a></b></div>
+          <div class="row"><small>Sosial</small><b><a href="https://www.instagram.com/lawyerwidya/" target="_blank" rel="noopener">Instagram @lawyerwidya</a> · <a href="https://www.threads.com/@lawyerwidya" target="_blank" rel="noopener">Threads @lawyerwidya</a></b></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="foot"><div><div class="brand"><span class="mark"><svg viewBox="0 0 64 64" fill="none"><path d="M32 9v42M20 18h24M13 27h14M37 27h14M16 27l-7 13h14l-7-13Zm32 0-7 13h14l-7-13ZM24 52h16" stroke="#f2b928" stroke-width="3" stroke-linecap="round"/></svg></span><span>WIDYA LAW OFFICE<small>Pauh · Perlis</small></span></div><p>Laman ini menyediakan maklumat umum mengenai firma dan bukan nasihat undang-undang. Menghantar mesej melalui laman ini tidak dengan sendirinya mewujudkan hubungan peguam-klien.</p></div><div class="footlinks"><a href="#khidmat">Khidmat</a><a href="#firma">Firma</a><a href="#info">Info</a><a href="#hubungi">Hubungi</a><a href="https://www.malaysianbar.org.my/" target="_blank" rel="noopener">Malaysian Bar ↗</a></div></div>
+      <div class="legal">© <span id="year"></span> Widya Law Office. Maklumat bidang amalan dan butiran hubungan hendaklah disahkan terus dengan firma sebelum bergantung kepadanya. Reka bentuk demo untuk tujuan cadangan laman web.</div>
+    </div>
+  </footer>
+
+  <div class="mobilebar"><a href="https://wa.me/60196196128" target="_blank" rel="noopener">WhatsApp</a><a href="tel:+60196196128">Call</a></div>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
